@@ -7,6 +7,10 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Varela Round', sans-serif;
 }
+
+/*--------------------------------------------
+             body-digine
+--------------------------------------------- */
 main{
     display: grid;
     justify-content: center;
@@ -63,17 +67,14 @@ main{
 
     height: 44px;
     text-align: center;
-    text-si
+
     
 }
-
-
-
 /*-------------------
    populer-collection 
 ---------------------*/
 .popular-collection{
-    background-color:#FFFFFF; 
+    background-color:white; 
     width: 1047px;
     height: 1663px;
     
@@ -117,15 +118,34 @@ main{
 .fa-star{
     color: #FB8200;
 }
-.second-buttom{
+.ancor-button{
     Width:99px;
     Height:24.01px;
     color: #E02C6D;
+    float: right;
+
    
  
 
 }
+/*--------------------------------
+bonuse-work
+-------------------------------------------- */
+.main-lustsection{
+    width: 1110px;
 
+    height: 270px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main-lustsection img{
+    width: 404px;
+    height: 270px;
+}
+.gear-dtls{
+    width: 610px;
+    height: 224px;
+}
 
 /*-------------------------------------
              footer
