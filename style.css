@@ -12,8 +12,10 @@ main{
     justify-content: center;
 }
 .top-header{
-    margin-top: 154px;
-    margin-left: 95px;
+  
+}
+.button{
+    text-decoration: none;
 }
 /* -----------------------------
 -----top-section-style----------
@@ -23,7 +25,8 @@ main{
     grid-template-columns: 1fr 1fr;
 }
 .half-width{
-    width: 50%;
+    Width:582px;
+    Height:254px;
 }
 .first-part{
 
@@ -37,13 +40,34 @@ main{
     font-size: 45px;
 }
 .first-part button{
-    text-decoration: none;
+   
     background-color: #E02C6D;
+}
+.half-width{
+    Width:448.44px;
+    Height:419.89px;
 }
 .half-width img{
     Width:448.44px;
     Height:419.89px;
+
 }
+.button-one{
+    display: flex;
+    flex-direction: row;
+
+    align-items: flex-start;
+
+    padding: 10px 24px;
+    width: 196px;
+
+    height: 44px;
+    text-align: center;
+    text-si
+    
+}
+
+
 
 /*-------------------
    populer-collection 
@@ -89,6 +113,34 @@ main{
     height: 256.15px;
 }
 
+
 .fa-star{
     color: #FB8200;
+}
+.second-buttom{
+    Width:99px;
+    Height:24.01px;
+    color: #E02C6D;
+   
+ 
+
+}
+
+
+/*-------------------------------------
+             footer
+ ---------------------------------------- */
+ .footer-all{
+    margin-top: 300px;
+    display: grid;
+    justify-content: center;
+    color:#FFFFFF;
+    background-color:#0A0826;
+    
+    
+     
+ }
+
+.icon{
+    text-align: center;
 }
