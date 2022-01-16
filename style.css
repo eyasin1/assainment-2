@@ -62,12 +62,20 @@ main{
 
     align-items: flex-start;
 
-    padding: 10px 24px;
+    padding: 10px 24px 10px 24px;
     width: 196px;
 
     height: 44px;
-    text-align: center;
+    
+    border-radius: 41px;
 
+    
+}
+.button-anchor-preebook{
+    color: #FFFFFF;
+    font-weight: 700;
+    
+    
     
 }
 /*-------------------
@@ -128,15 +136,27 @@ main{
  
 
 }
+.button-tow{
+    font-weight: 700;
+   
+   
+   
+    color: rgba(224, 44, 109, 0.87);
+
+}
+
 /*--------------------------------
 bonuse-work
 -------------------------------------------- */
-.main-lustsection{
-    width: 1110px;
-
-    height: 270px;
+.lust-section{
     display:grid;
+    justify-content: center;
+    margin-top: 200px;
+}
+.main-lustsection{
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    
 }
 .main-lustsection img{
     width: 404px;
@@ -146,6 +166,7 @@ bonuse-work
     width: 610px;
     height: 224px;
 }
+
 
 /*-------------------------------------
              footer
@@ -160,7 +181,21 @@ bonuse-work
     
      
  }
+ .p-tag{
+     align-items: center;
+ }
+ .hthree-tag{
+    text-align: center;
+ }
 
 .icon{
     text-align: center;
 }
+
+
+/*------------------------------------
+
+              @media queries
+----------------------------------- */
+    
+/* ---------------mobile device------------- */
