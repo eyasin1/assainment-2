@@ -171,7 +171,7 @@ bonuse-work
 /*-------------------------------------
              footer
  ---------------------------------------- */
- .footer-all{
+ .footer-main{
     margin-top: 300px;
     display: grid;
     justify-content: center;
@@ -197,5 +197,67 @@ bonuse-work
 
               @media queries
 ----------------------------------- */
+
+@media screen and (max-width:688px) {
     
-/* ---------------mobile device------------- */
+    
+    .top-header{
+        text-align: center;
+    }
+    .first-part{
+        width: 404px;
+
+        top: 352px;
+    }
+
+
+    .top-section{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        grid-template-columns: repeat(1 1fr);
+        flex-direction: column;
+        
+    }
+    .section-title{
+        width: 100%;
+        text-align: center;
+    }
+    .all-products{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        grid-template-columns: repeat(1 1fr);
+        flex-direction: column;
+
+    }
+    .bonuse-main-section{
+     
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(1 1fr);
+        flex-direction: column;
+        margin-top: 3028px;
+
+    }
+    footer{
+        
+       
+
+        margin-top: 116px;
+        
+
+    }
+
+
+
+
+        
+    
+    
+    
+}
+
+
